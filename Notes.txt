@@ -1,0 +1,117 @@
+FONA SETUP
+
+
+I just had one shipped to you just in case, and it will arrive Tuesday.
+
+Basically, the instructions are:
+
+1. The pinouts for talking to the module on a breadboard are as follows, using this cable:
+https://www.adafruit.com/product/954
+Cable BLACK to Fona Gnd & Key
+Cable RED to Fona Vio & Bat
+Cable GREEN to Fona Rx
+Cable WHITE to Fona Tx
+
+2. When getting a new Fona module, it is IMPERATIVE that you first
+hook it up to your PC/Mac in serial mode. You must connect initially with
+a baud rate of 115200/n/8/1. You MUST lower the baud rate permanently to
+9600, because that is the rate we need it to be at for a reliable DFU. This
+command will do it, and will store the new setting in module NVRAM. After
+executing it you should connect to it at 9600 and make sure it works.
+a) type AT<enter> and make sure you see that it replies OK
+b) type AT+IPREX=9600<enter>
+Now disconnect from serial, change your serial terminal program to connect at 9600, and type AT<enter>.  If it works, the module is all set. (edited) (edited)
+
+
+
+
+
+VREG2 SETUP
+
+Can be done with jumper wires conneting a suitable resistor (10K is good) between FONA-BAT and GND-CELL, and then between GND-CELL and GND (bypassing Q1 to turn on the ground).
+Easiest way is to jumper between FONA pins 2 (FONA-BAT) and Resistor, and then resistor to FONA pin 3 (GND-CELL), and also connect the GND-CELL line to the GND pin on the DAPLINK header (remove DAPLINK when doing this)
+
+
+
+
+
+“off” means “normal operations”
+“on” means “normal scheduling, but change the timeout values such that everything runs faster than normal”
+“s-xxx” means “go into a loop where you do nothing but measure the specified sensor, suspending normal scheduling operations”
+By saying “test s-ina” it means “loop over and over doing a test of the voltage/current sensor”
+
+
+
+
+
+
+
+
+Please just remember the following:
+- teletype is your friend - connecting in and checking on things
+- it’s better to use teletype (and “report xxx”) to check on things rather than touching the device, because touching the device triggers a new GPS seek, etc
+- if you ever mess with it by using “test xxx”, just reboot it afterward
+- if you want to be anal when deploying, always use the simple rule of:
+a) place it on the tripod
+b) power it off and count to 15
+c) power it on, and start trying to connect into it with teletype
+d) watch what happens without touching the unit (using S, ccc, g, or whatever commands amuse you) to watch it.  Watch it all the way through GPS seek and the first fona upload, all without touching it
+e) disconnect from the device in the teletype app, or just walk out of BT coverage which will do the same thing.
+
+--
+
+----
+use 'sss' to see sensor names
+
+Unit 1344:
+With Solar disconnected, Display attached and off, geig attached
+34.8mA
+
+With Solar diconnected, Display attached and off, geig DETACHED
+35.1mA
+
+With Solar disconnected, Display DETACHED, geig DETACHED
+
+--
+INH problem on mux
+change A and B control lines so that A is GPS select, B is FONA select.  Then [AB] = [00]: no connnect, [10]: connect GPS, [01]: connect FONA, [11]: no connect.
+
+
+--
+current leakage through daplink
+Nano Vin to Gnd - ~5ma
+Multimeter shows 5.25ma
+3v3 draws 31.5mA
+
+running all wires, but only one ground and putting meter on ground shows 31.5 mA draw, regardless of which signals are connected or disconnected - but with Vin always connected.
+==> all leakage is via Vin / 3.3V
+
+
+*****  Rev C changes  *****
+
+-  DONE solar panel jack footprint correction
+-  DONE uart mux routing
+-  DONE gps power pin and FONA power pin as selects to mux
+-  DONE daplink pins
+
+
+---
+things to watch out for:
+make sure nano RA pins are soldered along with the original parallel sets of pins
+FONA is configured
+
+
+----
+Other notes:
+- Program the firmware after preparing the RedBear Nano, but before installation.  (For extra sanity check, use jumper wires to connect the VCC, GND, and SDA and SCL lines to the pins on the top side of the Nano to the OLED, prior to installation.)   Trim off the pins on the top side until AFTER everything appears to be working.
+- Unless trimming is needed to prevent interference (during MOD1 installation), or for limiting DAPLINK connections, defer all other pin trimming until everything appears to be working.  Remove battery and switch the on/off switch to off position before doing the trimming work.
+- Connect FTDI to FONA and issue the AT+IPREX=9600 command.
+- Make sure VREG2 is set to ~4.0 volts before attaching the FONA.
+- When installing the battery holder, make sure that the really small alignment pin on one corner of the holder is aligned to the corresponding small hole on the board.  Because of the amount of metal, you will need to dwell your iron for a longer period of time to adequately heat up the join to flow the solder well.  If you have standalone flux, fluxing the leads of the battery holder will help, as the leads seems to get oxidized and does not wet well (at least on some of the holders that I installed).
+- Before installing batteries, do a quick safety check to make sure there is no short between the + and - terminals.
+- Install batteries.  Make sure to double-check the polarity.
+- When you first power on the Solarcast Nano, it will appear to do nothing. The first sign of life is the LED's on the FONA will light up after about 4 seconds.  The banner should appear on the OLED display within another 20 seconds or so.
+- Note the unit ID # that shows up during the startup banner.  Once the unit is operational, it will eventually start feeding data to the backend.  In the #ops channel, use  "report <idnumber> 1d" to see the data that has been uploaded.
+- Questions?  Contact Joseph Chiu at joseph@toybuilderlabs.com.  For emergencies, call +1 (626) 643-2448.
+
+

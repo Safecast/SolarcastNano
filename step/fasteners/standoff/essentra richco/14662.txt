@@ -1,0 +1,16 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"EHCBS-8-01";"";
+"TraceParts.PartVersion";"1.1.1";"";
+"SUPPLIER";"Richco";"";
+"TraceParts.PartStatus";"Published";"";
+"RS_STOCK_NUMBER";"6633296";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"Edge holding PCB support, 12.7mm H";"";
+"TraceParts.InstanceId";"10-25012011-081230EPBNZ6JZQ3CVY5EP70TCW417V";"";
+"TraceParts.PartTitle";"Edge holding PCB support, 12.7mm H";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TIMESTAMP";"1/2/2011 11:24:21";"";
+"REVISION";"A";"";
+"TraceParts.PartNumber";"10-25012011-081230";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.ClassPath";"RS_COMPONENTS:10-25012011-081230";"";
