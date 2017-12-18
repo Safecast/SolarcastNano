@@ -1,0 +1,1265 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "SCNano-Main-SchDoc"
+Date "17 12 2017"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 12060 10700 0    60   ~ 0
+=sheetnumber
+Text Notes 12750 10300 0    60   ~ 0
+=organization
+Text Notes 12750 10400 0    60   ~ 0
+=address1
+Text Notes 12750 10500 0    60   ~ 0
+=address2
+Text Notes 12750 10600 0    60   ~ 0
+=address3
+Text Notes 12750 10700 0    60   ~ 0
+=address4
+Text Notes 12320 10700 0    60   ~ 0
+=sheettotal
+Text Notes 10480 10360 0    90   ~ 12
+=title
+Text Notes 11270 10560 0    72   ~ 0
+=documentnumber
+Text Notes 12190 10560 0    72   ~ 0
+=revision
+Text Notes 10500 10700 0    60   ~ 0
+=CurrentDate
+Text Notes 11350 10700 0    60   ~ 0
+=CurrentTime
+Text Notes 10500 10800 0    60   ~ 0
+=DocumentFullPathAndName
+Wire Notes Line
+	10200 10200 13900 10200
+Wire Notes Line
+	10200 10800 10200 10200
+Wire Notes Line
+	12700 10400 10200 10400
+Wire Notes Line
+	10900 10600 10900 10400
+Wire Notes Line
+	10200 10700 13800 10700
+Wire Notes Line
+	11800 10700 11800 10400
+Wire Notes Line
+	13900 10200 14800 10200
+Wire Notes Line
+	13900 10700 13900 10200
+Text Notes 10250 10350 0    60   ~ 0
+Title
+Text Notes 10250 10550 0    60   ~ 0
+Size:
+Text Notes 10950 10550 0    60   ~ 0
+Number:
+Text Notes 10250 10700 0    60   ~ 0
+Date:
+Text Notes 10250 10800 0    60   ~ 0
+File:
+Text Notes 11850 10550 0    60   ~ 0
+Revision:
+Text Notes 11850 10700 0    60   ~ 0
+Sheet
+Text Notes 12190 10700 0    60   ~ 0
+of
+Wire Notes Line
+	12700 10700 12700 10200
+Text Notes 11100 10700 0    60   ~ 0
+Time:
+Text Notes 10500 10560 0    72   ~ 0
+B
+Wire Notes Line
+	12700 10600 10200 10600
+Wire Notes Line
+	14800 10700 13800 10700
+Text Label 7700 6900 0 70 ~
+1528-1153-ND
+Text Label 2700 7200 0 70 ~
+1528-1516-ND
+Text Label 1390 3730 0 70 ~
+EG1270
+Text Label 700 4800 0 70 ~
+36-1049-ND
+Text Label 11200 4000 0 70 ~
+WM12970-ND
+Text Label 7500 5500 0 70 ~
+1528-1689-ND
+Text Label 10500 4000 0 70 ~
+1528-1689-ND
+Text Label 8900 7300 0 70 ~
+296-3830-5-ND
+Text Label 1490 2530 0 70 ~
+CP-031CH-ND
+Text Label 2100 2100 0 70 ~
+PANEL-POS
+$Comp
+L GND #PWR?5A372219
+U 1 1 5A372219
+P 4800 2700
+F 0 "GND" H 4800 2840 20  0000 C CNN
+F 1 "+GND" H 4800 2810 30  0000 C CNN
+F 2 "" H 4800 2700 70  0000 C CNN
+F 3 "" H 4800 2700 70  0000 C CNN
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?5A372218
+U 1 1 5A372218
+P 2200 6900
+F 0 "GND_2" H 2200 7040 20  0000 C CNN
+F 1 "+GND" H 2200 7010 30  0000 C CNN
+F 2 "" H 2200 6900 70  0000 C CNN
+F 3 "" H 2200 6900 70  0000 C CNN
+	1    2200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?5A372217
+U 1 1 5A372217
+P 2100 2500
+F 0 "GND_3" H 2100 2640 20  0000 C CNN
+F 1 "+GND" H 2100 2610 30  0000 C CNN
+F 2 "" H 2100 2500 70  0000 C CNN
+F 3 "" H 2100 2500 70  0000 C CNN
+	1    2100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?5A372216
+U 1 1 5A372216
+P 2500 2500
+F 0 "GND_4" H 2500 2640 20  0000 C CNN
+F 1 "+GND" H 2500 2610 30  0000 C CNN
+F 2 "" H 2500 2500 70  0000 C CNN
+F 3 "" H 2500 2500 70  0000 C CNN
+	1    2500 2500
+	1    0    0    -1  
+$EndComp
+Text Label 4700 3400 0 70 ~
+BAT-BUS
+$Comp
+L GND #PWR?5A372215
+U 1 1 5A372215
+P 1000 4900
+F 0 "GND_5" H 1000 5040 20  0000 C CNN
+F 1 "+GND" H 1000 5010 30  0000 C CNN
+F 2 "" H 1000 4900 70  0000 C CNN
+F 3 "" H 1000 4900 70  0000 C CNN
+	1    1000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?5A372214
+U 1 1 5A372214
+P 8200 2700
+F 0 "GND_6" H 8200 2840 20  0000 C CNN
+F 1 "+GND" H 8200 2810 30  0000 C CNN
+F 2 "" H 8200 2700 70  0000 C CNN
+F 3 "" H 8200 2700 70  0000 C CNN
+	1    8200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?5A372213
+U 1 1 5A372213
+P 5900 5000
+F 0 "GND_7" H 5900 5140 20  0000 C CNN
+F 1 "+GND" H 5900 5110 30  0000 C CNN
+F 2 "" H 5900 5000 70  0000 C CNN
+F 3 "" H 5900 5000 70  0000 C CNN
+	1    5900 5000
+	1    0    0    -1  
+$EndComp
+Text Label 800 3500 0 70 ~
+BAT-POS
+Text Label 6100 4300 0 70 ~
+GND-CELL
+Text Label 6600 3600 0 70 ~
+FONA-BAT
+Text Label 2100 3400 0 70 ~
+BAT-SW
+$Comp
+L 3V3 #PWR?5A372212
+U 1 1 5A372212
+P 9400 2100
+F 0 "3V3" H 9400 2100 20  0000 C CNN
+F 1 "+3V3" H 9400 2030 30  0000 C CNN
+F 2 "" H 9400 2100 70  0000 C CNN
+F 3 "" H 9400 2100 70  0000 C CNN
+	1    9400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?5A372211
+U 1 1 5A372211
+P 2300 3700
+F 0 "3V3_2" H 2300 3700 20  0000 C CNN
+F 1 "+3V3" H 2300 3630 30  0000 C CNN
+F 2 "" H 2300 3700 70  0000 C CNN
+F 3 "" H 2300 3700 70  0000 C CNN
+	1    2300 3700
+	1    0    0    -1  
+$EndComp
+Text Label 2500 4400 0 70 ~
+1528-1168-ND
+$Comp
+L GND #PWR?5A372210
+U 1 1 5A372210
+P 1800 6000
+F 0 "GND_8" H 1800 6140 20  0000 C CNN
+F 1 "+GND" H 1800 6110 30  0000 C CNN
+F 2 "" H 1800 6000 70  0000 C CNN
+F 3 "" H 1800 6000 70  0000 C CNN
+	1    1800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?5A37220F
+U 1 1 5A37220F
+P 2200 4500
+F 0 "3V3_3" H 2200 4500 20  0000 C CNN
+F 1 "+3V3" H 2200 4430 30  0000 C CNN
+F 2 "" H 2200 4500 70  0000 C CNN
+F 3 "" H 2200 4500 70  0000 C CNN
+	1    2200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?5A37220E
+U 1 1 5A37220E
+P 2200 6200
+F 0 "3V3_4" H 2200 6200 20  0000 C CNN
+F 1 "+3V3" H 2200 6130 30  0000 C CNN
+F 2 "" H 2200 6200 70  0000 C CNN
+F 3 "" H 2200 6200 70  0000 C CNN
+	1    2200 6200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2500 6100
+$Comp
+L GND #PWR?5A37220D
+U 1 1 5A37220D
+P 700 9100
+F 0 "GND_9" H 700 9240 20  0000 C CNN
+F 1 "+GND" H 700 9210 30  0000 C CNN
+F 2 "" H 700 9100 70  0000 C CNN
+F 3 "" H 700 9100 70  0000 C CNN
+	1    700 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?5A37220C
+U 1 1 5A37220C
+P 900 10400
+F 0 "GND_10" H 900 10540 20  0000 C CNN
+F 1 "+GND" H 900 10510 30  0000 C CNN
+F 2 "" H 900 10400 70  0000 C CNN
+F 3 "" H 900 10400 70  0000 C CNN
+	1    900 10400
+	1    0    0    -1  
+$EndComp
+Text Label 800 7800 0 70 ~
+MCU-SWCLK
+Text Label 800 7900 0 70 ~
+MCU-SWDIO
+Text Label 3300 9100 0 70 ~
+MCU-RX
+Text Label 3300 9000 0 70 ~
+MCU-TX
+Text Label 3300 7900 0 70 ~
+TWI-SDA
+Text Label 3300 7800 0 70 ~
+TWI-SCL
+Text Label 3700 6200 0 70 ~
+TWI-SDA
+Text Label 3700 6100 0 70 ~
+TWI-SCL
+Text Label 3700 4900 0 70 ~
+TWI-SDA
+Text Label 3700 4800 0 70 ~
+TWI-SCL
+Text Label 3700 4000 0 70 ~
+TWI-SDA
+Text Label 3700 3900 0 70 ~
+TWI-SCL
+$Comp
+L GND #PWR?5A37220B
+U 1 1 5A37220B
+P 8400 9700
+F 0 "GND_11" H 8400 9840 20  0000 C CNN
+F 1 "+GND" H 8400 9810 30  0000 C CNN
+F 2 "" H 8400 9700 70  0000 C CNN
+F 3 "" H 8400 9700 70  0000 C CNN
+	1    8400 9700
+	1    0    0    -1  
+$EndComp
+Text Label 7400 7800 0 70 ~
+MCU-TX
+Text Label 7400 8400 0 70 ~
+MCU-RX
+$Comp
+L 3V3 #PWR?5A37220A
+U 1 1 5A37220A
+P 8400 7100
+F 0 "3V3_5" H 8400 7100 20  0000 C CNN
+F 1 "+3V3" H 8400 7030 30  0000 C CNN
+F 2 "" H 8400 7100 70  0000 C CNN
+F 3 "" H 8400 7100 70  0000 C CNN
+	1    8400 7100
+	1    0    0    -1  
+$EndComp
+Text Label 3300 8100 0 70 ~
+GEIGER0
+Text Label 6000 9100 0 70 ~
+GEIGER0
+Text Label 6000 9200 0 70 ~
+GEIGER1
+$Comp
+L GND #PWR?5A372209
+U 1 1 5A372209
+P 5900 10300
+F 0 "GND_12" H 5900 10440 20  0000 C CNN
+F 1 "+GND" H 5900 10410 30  0000 C CNN
+F 2 "" H 5900 10300 70  0000 C CNN
+F 3 "" H 5900 10300 70  0000 C CNN
+	1    5900 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?5A372208
+U 1 1 5A372208
+P 5100 9300
+F 0 "3V3_6" H 5100 9300 20  0000 C CNN
+F 1 "+3V3" H 5100 9230 30  0000 C CNN
+F 2 "" H 5100 9300 70  0000 C CNN
+F 3 "" H 5100 9300 70  0000 C CNN
+	1    5100 9300
+	1    0    0    -1  
+$EndComp
+Text Label 3300 8700 0 70 ~
+ENABLE-CELL
+Text Label 5000 4700 0 70 ~
+ENABLE-CELL
+Text Label 3300 8400 0 70 ~
+ENABLE-GEIG
+Text Label 5000 10000 0 70 ~
+ENABLE-GEIG
+$Comp
+L GND #PWR?5A372207
+U 1 1 5A372207
+P 10000 8900
+F 0 "GND_13" H 10000 9040 20  0000 C CNN
+F 1 "+GND" H 10000 9010 30  0000 C CNN
+F 2 "" H 10000 8900 70  0000 C CNN
+F 3 "" H 10000 8900 70  0000 C CNN
+	1    10000 8900
+	1    0    0    -1  
+$EndComp
+Text Label 9100 9000 0 70 ~
+ENABLE-GPS
+Text Label 3300 8600 0 70 ~
+ENABLE-GPS
+Text Label 5000 6900 0 70 ~
+ENABLE-GPS
+$Comp
+L GND #PWR?5A372206
+U 1 1 5A372206
+P 5900 7200
+F 0 "GND_14" H 5900 7340 20  0000 C CNN
+F 1 "+GND" H 5900 7310 30  0000 C CNN
+F 2 "" H 5900 7200 70  0000 C CNN
+F 3 "" H 5900 7200 70  0000 C CNN
+	1    5900 7200
+	1    0    0    -1  
+$EndComp
+Text Label 9100 7700 0 70 ~
+UGPS-RX
+Text Label 9100 8300 0 70 ~
+UGPS-TX
+Text Label 9100 8200 0 70 ~
+FONA-TX
+Text Label 9100 7600 0 70 ~
+FONA-RX
+NoConn ~ 9000 8100
+NoConn ~ 9000 8400
+NoConn ~ 9000 7500
+NoConn ~ 9000 7800
+NoConn ~ 7500 6000
+NoConn ~ 9000 5800
+NoConn ~ 7500 6200
+NoConn ~ 9000 6500
+NoConn ~ 9000 6600
+Text Label 9000 6100 0 70 ~
+UGPS-TX
+Text Label 9000 6200 0 70 ~
+UGPS-RX
+Text Label 9200 3800 0 70 ~
+FONA-RX
+Text Label 9200 3700 0 70 ~
+FONA-TX
+NoConn ~ 7300 3500
+$Comp
+L 3V3 #PWR?5A372205
+U 1 1 5A372205
+P 9000 3400
+F 0 "3V3_7" H 9000 3400 20  0000 C CNN
+F 1 "+3V3" H 9000 3330 30  0000 C CNN
+F 2 "" H 9000 3400 70  0000 C CNN
+F 3 "" H 9000 3400 70  0000 C CNN
+	1    9000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?5A372204
+U 1 1 5A372204
+P 7200 3900
+F 0 "3V3_8" H 7200 3900 20  0000 C CNN
+F 1 "+3V3" H 7200 3830 30  0000 C CNN
+F 2 "" H 7200 3900 70  0000 C CNN
+F 3 "" H 7200 3900 70  0000 C CNN
+	1    7200 3900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9000 4100
+NoConn ~ 9000 4200
+NoConn ~ 9000 4300
+NoConn ~ 9000 4000
+NoConn ~ 9000 4700
+NoConn ~ 9000 4900
+NoConn ~ 9000 5000
+NoConn ~ 9000 5100
+NoConn ~ 9000 5200
+NoConn ~ 7300 4400
+$Comp
+L 3V3 #PWR?5A372203
+U 1 1 5A372203
+P 7200 5700
+F 0 "3V3_9" H 7200 5700 20  0000 C CNN
+F 1 "+3V3" H 7200 5630 30  0000 C CNN
+F 2 "" H 7200 5700 70  0000 C CNN
+F 3 "" H 7200 5700 70  0000 C CNN
+	1    7200 5700
+	1    0    0    -1  
+$EndComp
+Text Label 3300 8500 0 70 ~
+ENABLE_TWI
+Text Label 700 5700 0 70 ~
+ENABLE_TWI
+Text Label 3300 8800 0 70 ~
+LIS-INT
+Text Label 3700 6700 0 70 ~
+LIS-INT
+NoConn ~ 3500 6500
+NoConn ~ 3500 6300
+NoConn ~ 7500 2400
+Wire Notes Line
+	10200 10200 10200 1700
+Text Notes 6500 8900 0    60   ~ 0
+>>> Cable to Geiger Board
+NoConn ~ 1200 3300
+Text Label 6000 6600 0 70 ~
+GND-GPS
+$Comp
+L 3V3 #PWR?5A372202
+U 1 1 5A372202
+P 700 8900
+F 0 "3V3_10" H 700 8900 20  0000 C CNN
+F 1 "+3V3" H 700 8830 30  0000 C CNN
+F 2 "" H 700 8900 70  0000 C CNN
+F 3 "" H 700 8900 70  0000 C CNN
+	1    700 8900
+	1    0    0    -1  
+$EndComp
+Text Label 600 9800 0 70 ~
+MCU-SWCLK
+Text Label 600 9900 0 70 ~
+MCU-SWDIO
+Text Notes 10800 5900 0    60   ~ 0
+Note: USB A(F)/Micro-B(M) Retractable Cable
+Text Label 2000 5100 0 70 ~
+GND-TWI
+Text Notes 6200 4900 0    60   ~ 0
+FET0
+Text Notes 6300 7100 0    60   ~ 0
+FET1
+Text Notes 1900 5500 0    60   ~ 0
+FET2
+Text Notes 6300 10200 0    60   ~ 0
+FET3
+Text Notes 10800 4700 0    60   ~ 0
+Note: Misc. Headers, Hardware
+Text Notes 10800 6500 0    60   ~ 0
+Note: Enclosure: Pelican 1040, modified with circular cutout and mylar film.
+Text Notes 1500 3000 0    84   ~ 12
+Power In
+Text Notes 2600 3300 0    84   ~ 12
+Charge Monitoring
+Text Notes 2800 4600 0    84   ~ 12
+OLED Display
+Text Notes 2700 5800 0    84   ~ 12
+3-Axis sensor
+Text Notes 1900 7600 0    84   ~ 12
+Microprocessor
+Text Notes 1600 9600 0    84   ~ 12
+Programming Interface
+Text Notes 6000 8800 0    84   ~ 12
+Connection to Geiger Board
+Text Notes 4400 5100 0    84   ~ 12
+TWI Bus
+Text Notes 8200 5600 0    84   ~ 12
+GPS
+Text Notes 8000 3200 0    84   ~ 12
+3G Data
+Text Notes 7200 1900 0    84   ~ 12
+3.3V Regulator (System Power)
+Text Notes 5500 3200 0    84   ~ 12
+4V Regulator (3G Module Power)
+Text Notes 12100 2000 0    84   ~ 12
+Miscellaneous Items
+Text Notes 6400 7600 0    84   ~ 12
+Serial Data Multiplexing
+Text Notes 10800 7000 0    60   ~ 0
+Note: Fona: Install SIM Card in module.
+Text Notes 10800 7100 0    60   ~ 0
+Note: Fona: Choose the correct module for North America vs. Asia/Europe 3G GSM operation
+Text Notes 10800 7400 0    60   ~ 0
+Note: GPS module: Do not install coin bat
+Text Notes 10800 7500 0    60   ~ 0
+Note: GPS module: We are intentionally skipping onboard regulator by powering via 3v3 pin
+Text Notes 10800 7700 0    60   ~ 0
+Note: INA219 - Use default address, do not install terminal block
+Text Notes 10800 7800 0    60   ~ 0
+Note: LIS3DH: Be sure to remove the SDA pull-up resistor.
+Text Notes 10800 6200 0    60   ~ 0
+Note: Grove 4-pin cable connects mainboard to geiger assembly.
+Text Label 6600 4300 3 70 ~
+Net Class
+Text Label 6500 4700 0 70 ~
+Power
+Text Label 6500 3600 3 70 ~
+Net Class
+Text Label 6400 4000 0 70 ~
+Power
+Text Label 7100 6600 3 70 ~
+Net Class
+Text Label 7000 7000 0 70 ~
+Power
+Text Label 9200 2100 3 70 ~
+Net Class
+Text Label 9100 2500 0 70 ~
+Power
+Text Label 2800 3000 0 70 ~
+485-390
+Text Label 400 5300 3 70 ~
+Net Class
+Text Label 300 5700 0 70 ~
+Power
+Text Label 6400 9400 3 70 ~
+Net Class
+Text Label 6300 9800 0 70 ~
+Power
+Text Label 6000 9400 0 70 ~
+GND-GEIG
+Text Label 3300 8200 0 70 ~
+GEIGER1
+Text Notes 10800 6800 0    60   ~ 0
+Note: Charger Module: Do not install 4,700uF CAP on module.  Instead, mount it on SCNano mainboard.
+NoConn ~ 4100 2300
+Text Notes 11000 4900 0    60   ~ 0
+18 pin socket for FONA 3G: Sullins PPTC181LGBN-RC
+Text Label 13100 2500 0 70 ~
+Panasonic
+Text Label 13100 2600 0 70 ~
+NCR18650PF
+Text Label 13100 2300 0 70 ~
+BAT1 (1 of 2)
+Text Label 13100 3200 0 70 ~
+Panasonic
+Text Label 13100 3300 0 70 ~
+NCR18650PF
+Text Label 13100 3000 0 70 ~
+BAT1 (2 of 2)
+Text Notes 11000 5000 0    60   ~ 0
+5 pin RA TH Header For Nano V2 - TE 3-644457-5
+Text Notes 11000 5200 0    60   ~ 0
+4x Nuts for space under solar panel McMaster 90480A005
+Text Notes 11000 5100 0    60   ~ 0
+2x Sullins PEC06SFCN long-tailed header for NanoV2
+Text Notes 11000 5300 0    60   ~ 0
+4x board spacer between main board and geig assy top: MDLSP1-14M-01
+Text Notes 10800 8000 0    60   ~ 0
+Note: NanoBear Alignment Fixture: Use alignment fixture to attach 5-pin R/A header to the RedBear Nano
+Text Notes 10800 8500 0    60   ~ 0
+ToDo: Improved Pancake Tape Alignment Fixture
+Text Label 1950 4000 1 70 ~
+Net Class
+Text Label 1900 3700 0 70 ~
+Power
+Text Label 3300 10200 0 70 ~
+TWI-SDA
+Text Label 3300 10100 0 70 ~
+TWI-SCL
+Text Label 3300 10300 0 70 ~
+MCU-TX
+Text Label 3300 10400 0 70 ~
+MCU-RX
+$Comp
+L 3V3 #PWR?5A372201
+U 1 1 5A372201
+P 900 10200
+F 0 "3V3_11" H 900 10200 20  0000 C CNN
+F 1 "+3V3" H 900 10130 30  0000 C CNN
+F 2 "" H 900 10200 70  0000 C CNN
+F 3 "" H 900 10200 70  0000 C CNN
+	1    900 10200
+	1    0    0    -1  
+$EndComp
+Text Label 3300 9900 0 70 ~
+GEIGER1
+Text Label 3300 9800 0 70 ~
+GEIGER0
+Text Label 700 10100 0 70 ~
+NANO_VIN
+Text Label 900 8800 0 70 ~
+NANO_VIN
+Text Notes 10800 8300 0    60   ~ 0
+Note: Power Nets are designed for 1A with 2A spike.   IPC calculator yielded 80 mil trace for 4A current
+Text Notes 11000 4800 0    60   ~ 0
+18 pin header for FONA 3G: Sullins PREC018SBAN-M71RC
+Text Notes 6540 3250 0    72   ~ 12
+3.9-4.2V into 10K Ohm
+Text Label 800 3800 0 70 ~
+BAT-POS
+Text Label 400 2800 0 70 ~
+1528-1383-ND
+$Comp
+L GND #PWR?5A372200
+U 1 1 5A372200
+P 1200 2600
+F 0 "GND_15" H 1200 2740 20  0000 C CNN
+F 1 "+GND" H 1200 2710 30  0000 C CNN
+F 2 "" H 1200 2600 70  0000 C CNN
+F 3 "" H 1200 2600 70  0000 C CNN
+	1    1200 2600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1200 2200
+NoConn ~ 1200 2300
+NoConn ~ 1200 2400
+Wire Wire Line
+	2100 2300 2000 2300
+Wire Wire Line
+	2100 2500 2100 2300
+Wire Wire Line
+	2200 6900 2500 6900
+Wire Wire Line
+	4300 2700 4100 2700
+Wire Wire Line
+	4800 2700 4300 2700
+Wire Wire Line
+	2600 2100 2000 2100
+Wire Wire Line
+	2500 2300 2500 2500
+Wire Wire Line
+	2600 2300 2500 2300
+Wire Wire Line
+	9400 2100 8900 2100
+Wire Wire Line
+	2300 3700 2300 3900
+Wire Wire Line
+	2200 4800 2500 4800
+Wire Wire Line
+	2200 4500 2200 4800
+Wire Wire Line
+	2200 6200 2500 6200
+Wire Wire Line
+	1100 10400 900 10400
+Wire Wire Line
+	1100 10300 1100 10400
+Wire Wire Line
+	1400 9100 1400 9000
+Wire Wire Line
+	700 9100 1400 9100
+Wire Wire Line
+	400 9800 1100 9800
+Wire Wire Line
+	400 7800 400 9800
+Wire Wire Line
+	1400 7800 400 7800
+Wire Wire Line
+	500 7900 1400 7900
+Wire Wire Line
+	500 9900 500 7900
+Wire Wire Line
+	1100 9900 500 9900
+Wire Wire Line
+	4200 6100 3500 6100
+Wire Wire Line
+	3500 6200 4300 6200
+Wire Wire Line
+	5500 4700 4900 4700
+Wire Wire Line
+	4000 8700 3200 8700
+Wire Wire Line
+	5900 9400 6600 9400
+Wire Wire Line
+	5900 9700 5900 9400
+Wire Wire Line
+	5100 9300 6600 9300
+Wire Wire Line
+	4000 8400 3200 8400
+Wire Wire Line
+	4000 8600 3200 8600
+Wire Wire Line
+	9600 7700 9000 7700
+Wire Wire Line
+	9600 6200 9600 7700
+Wire Wire Line
+	9000 6200 9600 6200
+Wire Wire Line
+	9700 7600 9000 7600
+Wire Wire Line
+	9700 3800 9700 7600
+Wire Wire Line
+	9000 3800 9700 3800
+Wire Wire Line
+	9800 8300 9000 8300
+Wire Wire Line
+	9800 6100 9800 8300
+Wire Wire Line
+	9000 6100 9800 6100
+Wire Wire Line
+	9900 8200 9000 8200
+Wire Wire Line
+	9900 3700 9900 8200
+Wire Wire Line
+	9000 3700 9900 3700
+Wire Wire Line
+	9000 3400 9000 3500
+Wire Wire Line
+	7200 3900 7300 3900
+Wire Wire Line
+	7200 5800 7500 5800
+Wire Wire Line
+	7200 5700 7200 5800
+Wire Wire Line
+	4000 8500 3200 8500
+Wire Wire Line
+	1400 5700 700 5700
+Wire Wire Line
+	4800 7800 7800 7800
+Wire Wire Line
+	4800 9000 4800 7800
+Wire Wire Line
+	3200 9000 4800 9000
+Wire Wire Line
+	4500 6700 3500 6700
+Wire Wire Line
+	4500 8800 4500 6700
+Wire Wire Line
+	3200 8800 4500 8800
+Wire Wire Line
+	5500 10000 4900 10000
+Wire Wire Line
+	5500 6900 4900 6900
+Wire Wire Line
+	5900 4300 5900 4100
+Wire Wire Line
+	5900 4400 5900 4300
+Wire Wire Line
+	7000 5200 7300 5200
+Wire Wire Line
+	7000 4300 7000 5200
+Wire Wire Line
+	7300 4300 7000 4300
+Wire Wire Line
+	10000 8700 9000 8700
+Wire Wire Line
+	10000 8900 10000 8700
+Wire Wire Line
+	8400 9600 8300 9600
+Wire Wire Line
+	8400 9700 8400 9600
+Wire Wire Line
+	5600 8100 3200 8100
+Wire Wire Line
+	5600 9100 5600 8100
+Wire Wire Line
+	6600 9100 5600 9100
+Wire Wire Line
+	5400 8200 3200 8200
+Wire Wire Line
+	5400 9200 5400 8200
+Wire Wire Line
+	6600 9200 5400 9200
+Wire Wire Line
+	700 8900 1400 8900
+Wire Wire Line
+	4900 9100 3200 9100
+Wire Wire Line
+	4900 8400 4900 9100
+Wire Wire Line
+	7800 8400 4900 8400
+Wire Wire Line
+	7500 6600 5900 6600
+Wire Wire Line
+	7000 4300 5900 4300
+Wire Wire Line
+	6500 3600 7300 3600
+Wire Wire Line
+	4100 2200 4300 2200
+Wire Wire Line
+	4300 2600 4100 2600
+Wire Wire Line
+	4300 2700 4300 2600
+Wire Wire Line
+	2500 5100 1800 5100
+Wire Wire Line
+	4300 4900 3500 4900
+Wire Wire Line
+	3500 4800 4200 4800
+Wire Wire Line
+	4300 4000 3500 4000
+Wire Wire Line
+	4300 4900 4300 4000
+Wire Wire Line
+	4300 6200 4300 4900
+Wire Wire Line
+	4300 7900 4300 6200
+Wire Wire Line
+	3200 7900 4300 7900
+Wire Wire Line
+	4300 2500 4300 2600
+Wire Wire Line
+	4100 2500 4300 2500
+Wire Wire Line
+	2700 3400 1800 3400
+Wire Wire Line
+	1800 4000 2300 4000
+Wire Wire Line
+	1800 5100 1800 4000
+Wire Wire Line
+	4200 3900 3500 3900
+Wire Wire Line
+	4200 4800 4200 3900
+Wire Wire Line
+	4200 6100 4200 4800
+Wire Wire Line
+	4200 7800 4200 6100
+Wire Wire Line
+	3200 7800 4200 7800
+Wire Wire Line
+	3700 10100 3200 10100
+Wire Wire Line
+	3700 10200 3200 10200
+Wire Wire Line
+	3700 10300 3200 10300
+Wire Wire Line
+	3700 10400 3200 10400
+Wire Wire Line
+	900 10200 1100 10200
+Wire Wire Line
+	3700 9900 3200 9900
+Wire Wire Line
+	3700 9800 3200 9800
+Wire Wire Line
+	600 10100 1100 10100
+Wire Wire Line
+	9700 8900 9000 8900
+Wire Wire Line
+	800 8800 1400 8800
+Wire Wire Line
+	1800 5400 1800 5100
+Wire Wire Line
+	400 3500 1200 3500
+Wire Wire Line
+	400 3800 400 3500
+Wire Wire Line
+	400 4200 400 3800
+Wire Wire Line
+	500 4200 400 4200
+Wire Wire Line
+	1600 4400 1400 4400
+Wire Wire Line
+	1600 3800 1600 4400
+Wire Wire Line
+	400 3800 1600 3800
+Wire Wire Line
+	1500 4200 1400 4200
+Wire Wire Line
+	1500 4900 1500 4200
+Wire Wire Line
+	1000 4900 1500 4900
+Wire Wire Line
+	400 4900 1000 4900
+Wire Wire Line
+	400 4400 400 4900
+Wire Wire Line
+	500 4400 400 4400
+Wire Wire Line
+	5300 2100 7500 2100
+Wire Wire Line
+	5300 3400 3100 3400
+Wire Wire Line
+	5300 2100 4100 2100
+Wire Wire Line
+	5300 3400 5300 2100
+Wire Wire Line
+	5300 3600 5300 3400
+Wire Wire Line
+	1200 1900 1200 2100
+Wire Wire Line
+	2000 1900 1200 1900
+Wire Wire Line
+	2000 2100 2000 1900
+Wire Wire Line
+	1200 2600 1200 2500
+Wire Wire Line
+	9700 9000 9000 9000
+Text Label 9100 8900 0 70 ~
+ENABLE-CELL
+Text Notes 11000 5400 0    60   ~ 0
+2x board spacer between main board and antenna holder : MDLSP1-5M-01
+Text Notes 10800 7200 0    60   ~ 0
+Note: Fona: Consult instructions for 9600 bps operation.
+Text Notes 11000 5500 0    60   ~ 0
+4x board spacer between main board and solar panel: 36-8829-ND (Keystone 8829)
+Text Notes 11000 5600 0    60   ~ 0
+Optional - keying plugs for header socket:    104072-1 (10 per unit)
+Connection ~ 400 3800
+Connection ~ 1000 4900
+Connection ~ 1100 10400
+Connection ~ 1400 9100
+Connection ~ 1800 5100
+Connection ~ 2000 2100
+Connection ~ 4200 6100
+Connection ~ 4200 4800
+Connection ~ 4300 6200
+Connection ~ 4300 4900
+Connection ~ 4300 2700
+Connection ~ 4300 2600
+Connection ~ 4300 2500
+Connection ~ 5300 3400
+Connection ~ 5300 2100
+Connection ~ 5900 4300
+Connection ~ 7000 4300
+Connection ~ 8400 9600
+$Comp
+L IIC_OLED_960 OLED1
+U 1 1 5A3721FF
+P 2700 4700
+F 0 "OLED1" H 2700 4700 60  0000 L BNN
+F 1 "OLED 128x64" H 2700 4100 60  0000 L BNN
+F 2 "" H 2700 4100 60  0000 C CNN
+F 3 "" H 2700 4100 60  0000 C CNN
+	1    2700 4700
+	1    0    0    -1
+$EndComp
+$Comp
+L ADAFRUIT_2687_2691_2 MOD2_2
+U 1 1 5A3721FE
+P 10900 3200
+F 0 "MOD2_2" V 10900 2800 60  0000 L BNN
+F 1 "FONA 3G" V 11600 2800 60  0000 L BNN
+F 2 "" H 11600 2800 60  0000 C CNN
+F 3 "" H 11600 2800 60  0000 C CNN
+	1    10900 3200
+	0    1    1    0
+$EndComp
+$Comp
+L REDBEAR_DAPLINK_1_5 MOD7
+U 1 1 5A3721FD
+P 1400 9700
+F 0 "MOD7" H 1400 9700 60  0000 L BNN
+F 1 "DAPLink 1.5" H 1400 8800 60  0000 L BNN
+F 2 "" H 1400 8800 60  0000 C CNN
+F 3 "" H 1400 8800 60  0000 C CNN
+	1    1400 9700
+	1    0    0    -1
+$EndComp
+$Comp
+L SN74LV4052A IC1
+U 1 1 5A3721FC
+P 8800 7300
+F 0 "IC1" H 8700 7500 60  0000 R BNN
+F 1 "SN74LV4052A" H 8700 7400 60  0000 R BNN
+F 2 "" H 8700 7400 60  0000 C CNN
+F 3 "" H 8700 7400 60  0000 C CNN
+	1    8800 7300
+	-1    0    0    -1
+$EndComp
+$Comp
+L STU85N3LH5 Q4
+U 1 1 5A3721FB
+P 5700 6800
+F 0 "Q4" H 5980 6710 60  0000 L BNN
+F 1 "STU85N3LH5" H 5980 6610 60  0000 L BNN
+F 2 "" H 5980 6610 60  0000 C CNN
+F 3 "" H 5980 6610 60  0000 C CNN
+	1    5700 6800
+	1    0    0    -1
+$EndComp
+$Comp
+L CUI_PJ-031CH J1
+U 1 1 5A3721FA
+P 1500 2000
+F 0 "J1" H 1490 1950 60  0000 L BNN
+	1    1500 2000
+	1    0    0    -1
+$EndComp
+$Comp
+L ADAFRUIT_904 MOD3
+U 1 1 5A3721F9
+P 2500 3600
+F 0 "MOD3" H 2500 3000 60  0000 L BNN
+F 1 "Current Sensor" H 2500 2900 60  0000 L BNN
+F 2 "" H 2500 2900 60  0000 C CNN
+F 3 "" H 2500 2900 60  0000 C CNN
+	1    2500 3600
+	1    0    0    -1
+$EndComp
+$Comp
+L REDBEAR_NANO_V2PLUS MOD6
+U 1 1 5A3721F8
+P 1700 7700
+F 0 "MOD6" H 1700 7700 60  0000 L BNN
+F 1 "Nano V2" H 1700 6100 60  0000 L BNN
+F 2 "" H 1700 6100 60  0000 C CNN
+F 3 "" H 1700 6100 60  0000 C CNN
+	1    1700 7700
+	1    0    0    -1
+$EndComp
+$Comp
+L STU85N3LH5 Q3
+U 1 1 5A3721F7
+P 5700 9900
+F 0 "Q3" H 5980 9810 60  0000 L BNN
+F 1 "STU85N3LH5" H 5980 9710 60  0000 L BNN
+F 2 "" H 5980 9710 60  0000 C CNN
+F 3 "" H 5980 9710 60  0000 C CNN
+	1    5700 9900
+	1    0    0    -1
+$EndComp
+$Comp
+L STU85N3LH5 Q2
+U 1 1 5A3721F6
+P 1600 5600
+F 0 "Q2" H 1880 5510 60  0000 L BNN
+F 1 "STU85N3LH5" H 1880 5410 60  0000 L BNN
+F 2 "" H 1880 5410 60  0000 C CNN
+F 3 "" H 1880 5410 60  0000 C CNN
+	1    1600 5600
+	1    0    0    -1
+$EndComp
+$Comp
+L VOLTAIC_SOLAR_PANEL_1W SOLARPANEL
+U 1 1 5A3721F5
+P 10500 2300
+F 0 "SOLARPANEL" H 10500 2300 60  0000 L BNN
+F 1 "VOLTAIC_SOLAR_PANEL_1W" H 10500 1900 60  0000 L BNN
+F 2 "" H 10500 1900 60  0000 C CNN
+F 3 "" H 10500 1900 60  0000 C CNN
+	1    10500 2300
+	1    0    0    -1
+$EndComp
+$Comp
+L ADAFRUIT_746 MOD5
+U 1 1 5A3721F4
+P 7700 5700
+F 0 "MOD5" H 7700 5700 60  0000 L BNN
+F 1 "GPS" H 7700 4600 60  0000 L BNN
+F 2 "" H 7700 4600 60  0000 C CNN
+F 3 "" H 7700 4600 60  0000 C CNN
+	1    7700 5700
+	1    0    0    -1
+$EndComp
+$Comp
+L CAP_POL_RB13-25 IC12
+U 1 1 5A3721F3
+P 4400 2300
+	1    4400 2300
+	1    0    0    -1
+$EndComp
+$Comp
+L STU85N3LH5 Q1
+U 1 1 5A3721F2
+P 5700 4600
+F 0 "Q1" H 5980 4510 60  0000 L BNN
+F 1 "STU85N3LH5" H 5980 4410 60  0000 L BNN
+F 2 "" H 5980 4410 60  0000 C CNN
+F 3 "" H 5980 4410 60  0000 C CNN
+	1    5700 4600
+	1    0    0    -1
+$EndComp
+$Comp
+L ADAFRUIT_390 MOD1
+U 1 1 5A3721F1
+P 2800 2000
+F 0 "MOD1" H 2800 2000 60  0000 L BNN
+F 1 "LiPo Charger" H 2800 1100 60  0000 L BNN
+F 2 "" H 2800 1100 60  0000 C CNN
+F 3 "" H 2800 1100 60  0000 C CNN
+	1    2800 2000
+	1    0    0    -1
+$EndComp
+$Comp
+L SC_CON_GEIGIE_4PIN CON1
+U 1 1 5A3721F0
+P 6800 9500
+F 0 "CON1" H 6800 9000 60  0000 L TNN
+F 1 "SC_CON_GEIGIE_4PIN" H 6800 9600 60  0000 L TNN
+F 2 "" H 6800 9600 60  0000 C CNN
+F 3 "" H 6800 9600 60  0000 C CNN
+	1    6800 9500
+	1   0    0    1
+$EndComp
+$Comp
+L BOM_Entry BOM1
+U 1 1 5A3721EF
+P 13000 2700
+F 0 "BOM1" H 13000 3200 60  0000 L BNN
+F 1 "Battery - 1of 2" H 13100 2700 60  0000 L BNN
+F 2 "" H 13100 2700 60  0000 C CNN
+F 3 "" H 13100 2700 60  0000 C CNN
+	1    13000 2700
+	1    0    0    -1
+$EndComp
+$Comp
+L BOM_Entry BOM2
+U 1 1 5A3721EE
+P 13000 3400
+F 0 "BOM2" H 13000 3900 60  0000 L BNN
+F 1 "Battery - 2 of 2" H 13100 3400 60  0000 L BNN
+F 2 "" H 13100 3400 60  0000 C CNN
+F 3 "" H 13100 3400 60  0000 C CNN
+	1    13000 3400
+	1    0    0    -1
+$EndComp
+$Comp
+L ADAFRUIT_1833 MOD8
+U 1 1 5A3721ED
+P 900 2600
+F 0 "MOD8" H 1400 2000 60  0000 R TNN
+F 1 "MicroUSB" H 1400 2700 60  0000 R TNN
+F 2 "" H 1400 2700 60  0000 C CNN
+F 3 "" H 1400 2700 60  0000 C CNN
+	1    900 2600
+	-1   0    0    1
+$EndComp
+$Comp
+L ADAFRUIT_2809 MOD4
+U 1 1 5A3721EC
+P 2700 6000
+F 0 "MOD4" H 2700 6100 60  0000 L BNN
+F 1 "3-Axis" H 2700 4900 60  0000 L BNN
+F 2 "" H 2700 4900 60  0000 C CNN
+F 3 "" H 2700 4900 60  0000 C CNN
+	1    2700 6000
+	1    0    0    -1
+$EndComp
+$Comp
+L EG1270 SW1
+U 1 1 5A3721EB
+P 1600 3500
+F 0 "SW1" H 1810 3270 60  0000 R TNN
+F 1 "SW-DPDT" H 1810 3630 60  0000 R TNN
+F 2 "" H 1810 3630 60  0000 C CNN
+F 3 "" H 1810 3630 60  0000 C CNN
+	1    1600 3500
+	-1   0    0    1
+$EndComp
+$Comp
+L KEYSTONE_1049 BAT1
+U 1 1 5A3721EA
+P 700 4600
+F 0 "BAT1" V 1300 4600 60  0000 R TNN
+F 1 "KEYSTONE_1049" V 600 4600 60  0000 R TNN
+F 2 "" H 600 4600 60  0000 C CNN
+F 3 "" H 600 4600 60  0000 C CNN
+	1    700 4600
+	0    -1   -1   0
+$EndComp
+$Comp
+L MOLEX_146185-0100 ANT1
+U 1 1 5A3721E9
+P 11700 3200
+F 0 "ANT1" V 11700 2690 60  0000 L BNN
+F 1 "3G Antenna" V 12400 2690 60  0000 L BNN
+F 2 "" H 12400 2690 60  0000 C CNN
+F 3 "" H 12400 2690 60  0000 C CNN
+	1    11700 3200
+	0    1    1    0
+$EndComp
+$Comp
+L POLOLU_2122 VREG1
+U 1 1 5A3721E8
+P 7700 2000
+F 0 "VREG1" H 7700 2000 60  0000 L BNN
+F 1 "Regulator 3.3V" H 7700 1180 60  0000 L BNN
+F 2 "" H 7700 1180 60  0000 C CNN
+F 3 "" H 7700 1180 60  0000 C CNN
+	1    7700 2000
+	1    0    0    -1
+$EndComp
+$Comp
+L POLULU_791 VREG2
+U 1 1 5A3721E7
+P 5500 3500
+F 0 "VREG2" H 5500 3700 60  0000 L BNN
+F 1 "Regulator Variable" H 5500 2780 60  0000 L BNN
+F 2 "" H 5500 2780 60  0000 C CNN
+F 3 "" H 5500 2780 60  0000 C CNN
+	1    5500 3500
+	1    0    0    -1
+$EndComp
+$Comp
+L ADAFRUIT_2687_2691_1 MOD2
+U 1 1 5A3721E6
+P 7500 3400
+F 0 "MOD2" H 7500 3400 60  0000 L BNN
+F 1 "FONA 3G" H 7500 1400 60  0000 L BNN
+F 2 "" H 7500 1400 60  0000 C CNN
+F 3 "" H 7500 1400 60  0000 C CNN
+	1    7500 3400
+	1    0    0    -1
+$EndComp
+$EndSCHEMATC
