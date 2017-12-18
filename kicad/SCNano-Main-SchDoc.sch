@@ -566,32 +566,8 @@ Text Notes 10800 7800 0    60   ~ 0
 Note: LIS3DH: Be sure to remove the SDA pull-up resistor.
 Text Notes 10800 6200 0    60   ~ 0
 Note: Grove 4-pin cable connects mainboard to geiger assembly.
-Text Label 6600 4300 3    70   ~ 0
-Net Class
-Text Label 6500 4700 0    70   ~ 0
-Power
-Text Label 6500 3600 3    70   ~ 0
-Net Class
-Text Label 6400 4000 0    70   ~ 0
-Power
-Text Label 7100 6600 3    70   ~ 0
-Net Class
-Text Label 7000 7000 0    70   ~ 0
-Power
-Text Label 9200 2100 3    70   ~ 0
-Net Class
-Text Label 9100 2500 0    70   ~ 0
-Power
 Text Label 2800 3000 0    70   ~ 0
 485-390
-Text Label 400  5300 3    70   ~ 0
-Net Class
-Text Label 300  5700 0    70   ~ 0
-Power
-Text Label 6400 9400 3    70   ~ 0
-Net Class
-Text Label 6300 9800 0    70   ~ 0
-Power
 Text Label 6000 9400 0    70   ~ 0
 GND-GEIG
 Text Label 3300 8200 0    70   ~ 0
@@ -625,10 +601,6 @@ Text Notes 10800 8000 0    60   ~ 0
 Note: NanoBear Alignment Fixture: Use alignment fixture to attach 5-pin R/A header to the RedBear Nano
 Text Notes 10800 8500 0    60   ~ 0
 ToDo: Improved Pancake Tape Alignment Fixture
-Text Label 1950 4000 1    70   ~ 0
-Net Class
-Text Label 1900 3700 0    70   ~ 0
-Power
 Text Label 3300 10200 0    70   ~ 0
 TWI-SDA
 Text Label 3300 10100 0    70   ~ 0
@@ -1238,4 +1210,32 @@ F 3 "" H 7500 1400 60  0000 C CNN
 	1    7500 3400
 	1    0    0    -1  
 $EndComp
+Text Notes 6500 3600 3    70   ~ 0
+Net Class
+Text Notes 6600 4300 3    70   ~ 0
+Net Class
+Text Notes 7100 6600 3    70   ~ 0
+Net Class
+Text Notes 9200 2100 3    70   ~ 0
+Net Class
+Text Notes 400  5300 3    70   ~ 0
+Net Class
+Text Notes 6400 9400 3    70   ~ 0
+Net Class
+Text Notes 1950 4000 1    70   ~ 0
+Net Class
+Text Notes 6500 4700 0    70   ~ 0
+Power
+Text Notes 6400 4000 0    70   ~ 0
+Power
+Text Notes 7000 7000 0    70   ~ 0
+Power
+Text Notes 9100 2500 0    70   ~ 0
+Power
+Text Notes 300  5700 0    70   ~ 0
+Power
+Text Notes 6300 9800 0    70   ~ 0
+Power
+Text Notes 1900 3700 0    70   ~ 0
+Power
 $EndSCHEMATC
